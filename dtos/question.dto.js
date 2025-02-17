@@ -1,0 +1,18 @@
+module.exports=class{
+    id
+    title
+    description
+    picture
+    user
+    counter
+    createdAt
+    constructor(model){
+        this.id=model.id
+        this.title=model.title
+        this.description=model.description
+        this.picture=model.picture
+        this.user=model.user
+        this.counter=model.counter
+        this.createdAt=model.createdAt
+    }
+}
